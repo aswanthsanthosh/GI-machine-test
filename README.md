@@ -47,5 +47,5 @@ __Usage :__
 
   upload csv file in request as 'file'
 
-screenshots and recordings are in 'recordings' folder in main branch
+screenshots and recordings are in 'screenshots' folder in main branch
    
