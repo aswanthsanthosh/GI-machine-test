@@ -6,7 +6,7 @@ __Setup__
 __1. Clone the repository__
    ```
    git clone https://github.com/aswanthsanthosh/GI-machine-test.git
-   cd GI-machine-test/project/
+   cd GI-machine-test/
    ```
 __2. Create a Virtual Environment__
    It's recommended to create a virtual environment to keep your dependencies isolated.
@@ -25,6 +25,7 @@ __3. Install Dependencies__
    Install the project dependencies listed in the requirements.txt file.
    ```
    pip install -r requirements.txt
+   cd project/
    ```
 __4. Apply Migrations__
    The default database will be sqlite. Unless you want to configure db to some other database, you can directly run the migrate command
