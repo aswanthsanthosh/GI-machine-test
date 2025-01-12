@@ -1,0 +1,74 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django settings and secret keys
+*.env
+.env.*
+*.secret
+settings_local.py
+db.sqlite3
+db.sqlite3-journal
+
+# Logs and runtime files
+*.log
+*.pot
+*.pid
+*.swp
+*.swo
+*.coverage
+*.cover
+coverage.xml
+nosetests.xml
+pylint.json
+*.pylint.d
+*.sqlite3
+
+# Media and uploads
+/media/
+/staticfiles/
+/static/
+
+# Virtual environment
+env/
+myenv/
+venv/
+ENV/
+.VENV/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+
+# Celery beat database
+celerybeat-schedule
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Docker
+*.env
+*.env.*
+.dockerignore
+docker-compose.override.yml
+
+# Editor swap files
+*~
+*.swp
+*.swo
